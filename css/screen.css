@@ -180,6 +180,7 @@ front_text {
 .boxed {
   border: 1px solid black;
   margin: auto;
+  padding: 3px;
 }
 .text_home {
   color: #2232CD;
