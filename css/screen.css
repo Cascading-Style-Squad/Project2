@@ -170,6 +170,7 @@ input[type="checkbox"] {
   max-width: 90%
 }
 .slider p{
+  margin-top: 1em;
   text-align: center;
   color: #2232CD;
 }
