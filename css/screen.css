@@ -61,6 +61,7 @@ html {
   position: relative;
   float: left;
   right: 50%;
+  width: 25%;
 }
 #navbar1 ul li a {
   display: block;
@@ -201,6 +202,10 @@ front_text {
 /*Tablet screen*/
 @media screen and (min-width: 768px) {
   /* changes for sign up page */
+  /* changes made to navigation*/
+  #navbar1 ul li {
+    width:auto;
+  }
   #sign-form {
     background-image: url(../img/hands_tablet.jpg);
   }
