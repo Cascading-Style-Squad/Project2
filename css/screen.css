@@ -224,29 +224,28 @@ front_text {
 	  margin: 15px 0 8px 8px;
   }
   .boxed {
-      border: 2px solid black;
-	  margin: 7px 7px 7px 7px;
+    border: 2px solid black;
+    margin: 7px 7px 7px 7px;
   }
   .text_home {
-      color: #2232CD;
-      font-size: 20px;
-      margin: 7px 0 7px 7px;
-      margin-bottom: 20px;
+    color: #2232CD;
+    font-size: 20px;
+    margin: 7px 0 7px 7px;
+    margin-bottom: 20px;
   }
   #front {
-	  height: auto;
-	  width: 80%;
+    height: auto;
+    width: 80%;
   }
   #locations {
-	  height: auto;
-	  width: 80%;
+    height: auto;
+    width: 80%;
   }
   #congress {
-	  height: auto;
-	  width: 80%;
+    height: auto;
+    width: 80%;
   }
   /*end of code for home page*/
-
   #header-container {
     width: 90%;
   }
