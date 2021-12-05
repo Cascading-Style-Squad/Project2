@@ -376,6 +376,7 @@ h3 {
   font-weight: bold;
 }
 .ue-list {
+  width: 97.5%;
   margin-top: 20px;
   font-size: 18px;
   line-height: 2em;
