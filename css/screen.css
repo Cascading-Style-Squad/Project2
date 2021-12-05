@@ -174,29 +174,29 @@ input[type="checkbox"] {
   color: #2232CD;
 }
 front_text {
-	  margin: 10px 0 5px 5px;
+  margin: 10px 0 5px 5px;
 }
 .boxed {
-      border: 1px solid black;
-	  margin: auto;
+  border: 1px solid black;
+  margin: auto;
 }
 .text_home {
-      color: #2232CD;
-      font-size: 20px;
-      margin: auto;
-      margin-bottom: 12px;
+  color: #2232CD;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 12px;
 }
 #front {
-	  height: auto;
-	  width: 100%;
+  height: auto;
+  width: 100%;
 }
 #locations {
-	  height: auto;
-	  width: 100%;
+  height: auto;
+  width: 100%;
 }
 #congress {
-	  height: auto;
-	  width: 100%;
+  height: auto;
+  width: 100%;
 }
 /*end of code for home page*/
 /* Bigger Mobile screen*/
@@ -282,33 +282,33 @@ front_text {
   /*end of the code for the sign up page*/ 
   /*code for home page*/
   .slider {
-	  height: 500px;
-	  position: relative;
+    height: 500px;
+    position: relative;
   }
   #front_text {
-	  margin: 20px 0 10px 10px;
+    margin: 20px 0 10px 10px;
   }
   .boxed {
-      border: 3px solid black;
-	  margin: 10px 10px 10px 10px;
+    border: 3px solid black;
+    margin: 10px 10px 10px 10px;
   }
   .text_home {
-      color: #2232CD;
-      font-size: 20px;
-      margin: 10px 0 10px 10px;
-      margin-bottom: 27px;
+    color: #2232CD;
+    font-size: 20px;
+    margin: 10px 0 10px 10px;
+    margin-bottom: 27px;
   }
   #front {
-	  height: 500px;
-	  width: 60%;
+    height: 500px;
+    width: 60%;
   }
   #locations {
-	  height: 500px;
-	  width: 60%;
+    height: 500px;
+    width: 60%;
   }
   #congress {
-	  height: 500px;
-	  width: 60%;	  
+    height: 500px;
+    width: 60%;	  
   }
   /*end of code for home page*/
   #header-container {
