@@ -393,14 +393,17 @@ h3 {
   margin-top: 50px;
 }
 .philosophy {
+  padding: 3px;
   border: 2px solid #000401;
   margin-top: 10px;
 }
 .thanksgiving {
+  padding: 3px;
   border: 2px solid #000401;
   margin-top: 10px;
 }
 .chrismas {
+  padding: 3px;
   border: 2px solid #000401;
   margin-top: 10px;
 }
