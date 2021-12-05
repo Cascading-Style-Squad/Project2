@@ -10,34 +10,28 @@ html {
   text-rendering: optimizeLegibility;
   background-color: rgb(248,248,255);
 }
-
 /*code for header*/
 #main-header {
   height: 6em;
   background: rgb(70,130,180);
   padding-left: 1em;
 }
-
 .container {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
-
 #header-container {
   position: relative;
 }
-
 #logo {
   padding-left: 8px;
   float: left;
 }
-
 #logo a {
   padding: 4px;
   display: block;
 }
-
 #org-name {
   margin-left: 1em;
   margin-top: 1.5em;
@@ -49,13 +43,11 @@ html {
   background-color: #47739E;
   overflow: hidden;
 }
-
 #navbar1-container {
   position: relative;
   float: left;
   width: 100%;
 }
-
 #navbar1 ul {
   position: relative;
   float: left;
@@ -64,36 +56,30 @@ html {
   padding: 0;
   margin: 0;
 }
-
 #navbar1 ul li {
   display: block;
   position: relative;
   float: left;
   right: 50%;
 }
-
 #navbar1 ul li a {
   display: block;
   text-decoration: none;
   padding: 10px 20px;
   color: #F8FBFF;
 }
-
 #navbar1 ul li a:hover {
   background-color: #0E467D;
 }
-
 #navbar1 #underline {
   text-decoration: underline;
 }
-
 /*code for the footer*/
 footer {
   background: rgb(70,130,180);
   height: 6em;
   margin-top: 4em;
 }
-
 #footer-container {
   text-align: left;
   color: rgb(248,248,255);
@@ -101,13 +87,10 @@ footer {
   padding-left: 1em;
   padding-top: 1em;
 }
-
-
 /*code for the sign up page*/
 #sign-form {
   background-image: url(../img/hands.jpg);
 }
-
 #form-head {
   text-align: center;
   color: #0C69B7;
@@ -115,22 +98,18 @@ footer {
  /* 28.43px */
   line-height: 1.5em;
 }
-
 #form-description {
   text-align: center;
   font-size: 1.333em;
  /* 21.328px */
   line-height: 1.25em;
 }
-
 label {
   display: block;
 }
-
 .label-input {
   margin-top: 1em;
 }
-
 form {
   background-color: rgba(255,255,255,0.5);
   margin: 2em 25px 2em 25px;
@@ -139,23 +118,19 @@ form {
   border-width: 0.05em;
   border-color: #5a5a5a;
 }
-
 input {
   box-sizing: border-box;
   width: 100%;
   padding: 10px;
   margin: 10px 0 10px 0;
 }
-
 input[type="checkbox"] + label {
   display: inline;
 }
-
 input[type="checkbox"] {
   width: 0.75em;
   height: 0.75em;
 }
-
 #text {
   display: none;
   font-size: 0.9em;
@@ -163,16 +138,13 @@ input[type="checkbox"] {
   color: #3A6629;
   text-align: center;
 }
-
 #news-verification {
   margin-top: 0;
 }
-
 #input-submit {
   margin-top: 0.75em;
   text-align: center;
 }
-
 #submit {
   background-color: #0C69B7;
   color: white;
@@ -185,12 +157,10 @@ input[type="checkbox"] {
  /* 16px */;
 }
 /*end of the code for the sign up page*/
-
 /*code for home page*/
 .slider{
   background-color: #f9f9f9;
 }
-
 .slider img {
   margin: 0 auto;
   overflow:hidden;
@@ -228,20 +198,16 @@ front_text {
 	  width: 100%;
 }
 /*end of code for home page*/
-
-
 /*Tablet screen*/
 @media screen and (min-width: 768px) {
   /* changes for sign up page */
   #sign-form {
     background-image: url(../img/hands_tablet.jpg);
   }
-
   form {
     width: 60%;
     margin-left: 18%;
   } /* end of changes for sign up page */
-  
   /*code for home page*/
   #front_text {
 	  margin: 15px 0 8px 8px;
@@ -273,48 +239,36 @@ front_text {
   #header-container {
     width: 90%;
   }
-
   #org-name {
     font-size: 1.25em;
   }
-
   footer {
     margin-bottom: 0;
     margin-top: 15em;
   }
-
   #footer-container {
     margin-left: 5%;
   }
-  
-  
-}
-
-  
+}  
 /*Desktop Screen*/  
 @media screen and (min-width: 992px) {
-  
   /* changes for sign up page */
   .label-input {
     display: block;
     width: 60%;
     margin-left: 20%;
   }
-
   #sign-form {
     background-image: url(../img/hands_desktop.jpg);
   }
-
   form {
     width: 40%;
     margin: 2em 20% 0.5em 30%;
   }
-
   #submit {
     width: 30%;
   }
   /*end of the code for the sign up page*/ 
-  
   /*code for home page*/
   .slider {
 	  height: 500px;
@@ -343,60 +297,47 @@ front_text {
   }
   #congress {
 	  height: 500px;
-	  width: 60%;
-	  
+	  width: 60%;	  
   }
   /*end of code for home page*/
-
   #header-container {
     width: 100%;
   }
-
   img {
     width: 125px;
     height: 127px;
   }
-
   #main-header {
     height: 8em;
   }
-
   #org-name {
     font-size: 1.777em;
   }
-
   #navbar1-container {
     font-size: 1.3em;
   }
-
   #navbar1 ul li a {
     padding: 10px 80px;
   }
-
   #footer-container {
     margin-left: 2.5%;
   }
 }
-
  .pe {
     margin-top: 15px;
   }
-
   .philosophy {
     border: 1.5px solid #4E545C;
     margin-top: 8px;
   }
-
   .thanksgiving {
     border: 1.5px solid #4E545C;
     margin-top: 8px;
   }
-
   .chrismas {
     border: 1.5px solid #4E545C;
     margin-top: 8px;
   }
-
 /*code for the event page*/
 #events-page {
   background-image: url(../img/sky.jpg);
@@ -404,58 +345,47 @@ front_text {
   background-attachment: fixed;
   background-size: cover;
 }
-
 .events {
   margin-left: 20px;
 }
-
 .ue-head {
   color: #1434A4;
   font-weight: bold;
   font-size: 28px;
 }
-
 .pe-head {
   color: #9B5B34;
   font-weight: bold;
   font-size: 28px;
   margin-top: 50px;
 }
-
 h3 {
   font-weight: bold;
 }
-
 .ue-list {
   margin-top: 20px;
   font-size: 18px;
   line-height: 2em;
 }
-
 .pe-list {
   margin-top: 15px;
   font-size: 18px;
   line-height: 2em;
 }
-
 .ue {
   margin-top: 13px;
 }
-
 .pe {
   margin-top: 50px;
 }
-
 .philosophy {
   border: 2px solid #000401;
   margin-top: 10px;
 }
-
 .thanksgiving {
   border: 2px solid #000401;
   margin-top: 10px;
 }
-
 .chrismas {
   border: 2px solid #000401;
   margin-top: 10px;
