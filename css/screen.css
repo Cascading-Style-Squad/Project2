@@ -206,6 +206,7 @@ front_text {
   /*changes to navigation*/
   #navbar1 ul li {
   width:  auto;
+  }
 }
 /*Tablet screen*/
 @media screen and (min-width: 768px) {
@@ -335,8 +336,7 @@ front_text {
   #footer-container {
     margin-left: 2.5%;
   }
-}
- .pe {
+  .pe {
     margin-top: 15px;
   }
   .philosophy {
@@ -351,59 +351,60 @@ front_text {
     border: 1.5px solid #4E545C;
     margin-top: 8px;
   }
-/*code for the event page*/
-#events-page {
-  background-image: url(../img/sky.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.events {
-  margin-left: 2%;
-}
-.ue-head {
-  color: #1434A4;
-  font-weight: bold;
-  font-size: 28px;
-}
-.pe-head {
-  color: #9B5B34;
-  font-weight: bold;
-  font-size: 28px;
-  margin-top: 50px;
-}
-h3 {
-  font-weight: bold;
-}
-.ue-list {
-  width: 97.5%;
-  margin-top: 20px;
-  font-size: 18px;
-  line-height: 2em;
-}
-.pe-list {
-  margin-top: 15px;
-  font-size: 18px;
-  line-height: 2em;
-}
-.ue {
-  margin-top: 13px;
-}
-.pe {
-  margin-top: 50px;
-}
-.philosophy {
-  padding: 3px;
-  border: 2px solid #000401;
-  margin-top: 10px;
-}
-.thanksgiving {
-  padding: 3px;
-  border: 2px solid #000401;
-  margin-top: 10px;
-}
-.chrismas {
-  padding: 3px;
-  border: 2px solid #000401;
-  margin-top: 10px;
+  /*code for the event page*/
+  #events-page {
+    background-image: url(../img/sky.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .events {
+    margin-left: 2%;
+  }
+  .ue-head {
+    color: #1434A4;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .pe-head {
+    color: #9B5B34;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  h3 {
+    font-weight: bold;
+  }
+  .ue-list {
+    width: 97.5%;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 2em;
+  }
+  .pe-list {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 2em;
+  }
+  .ue {
+    margin-top: 13px;
+  }
+  .pe {
+    margin-top: 50px;
+  }
+  .philosophy {
+    padding: 3px;
+    border: 2px solid #000401;
+    margin-top: 10px;
+  }
+  .thanksgiving {
+    padding: 3px;
+    border: 2px solid #000401;
+    margin-top: 10px;
+  }
+  .chrismas {
+    padding: 3px;
+    border: 2px solid #000401;
+    margin-top: 10px;
+  }
 }
